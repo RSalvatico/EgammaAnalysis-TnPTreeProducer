@@ -1,17 +1,23 @@
 # EgammaAnalysis-TnPTreeProducer
-TnP package for EGM
+TnP package for EGM: Twiki link: [here](https://twiki.cern.ch/twiki/bin/view/CMSPublic/ElectronTagAndProbe#Workflow_Description_in_80X)
 
-For regular users
-1. install
+## How to setup
 
-git clone https://github.com/cms-analysis/EgammaAnalysis-TnPTreeProducer EgammaAnalysis/TnPTreeProducer -b <branchVersion>
+	cmsrel CMSSW_8_0_27
+	cd CMSSW_8_0_27/src
+	cmsenv
+	git cms-init
+	git cms-merge-topic cms-egamma:EGM_gain_v1
+	cd EgammaAnalysis/ElectronTools/data
+	git clone -b Moriond17_gainSwitch_unc https://github.com/ECALELFS/ScalesSmearings.git
+	cd $CMSSW_BASE/src
+	git clone -b v2017.05.23_legacy80X_prelim https://github.com/cms-analysis/EgammaAnalysis-TnPTreeProducer EgammaAnalysis/TnPTreeProducer
+	scram b -j8
+	cd EgammaAnalysis/TnPTreeProducer/
+	cmsenv
+	cmsRun python/TnPTreeProducer_cfg.py doEleID=True isMC=False maxEvents=5000
 
+### To submit crab jobs
 
-For developpers
-1. On github fork the package https://github.com/cms-analysis/EgammaAnalysis-TnPTreeProducer 
-2. Add the remote 
+	python ../scripts/crab/tnpCrabSubmitMiniAOD.py
 
-git remote add username-push git@github.com:username/EgammaAnalysis-TnPTreeProducer.git
-
-3. push commits to fork and then standard pull request process
-git push username-push branchname
