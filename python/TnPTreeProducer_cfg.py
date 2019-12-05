@@ -10,7 +10,7 @@ process = cms.Process("tnpEGM")
 varOptions = VarParsing('analysis')
 
 varOptions.register(
-    "isMC", False,
+    "isMC", True,
     VarParsing.multiplicity.singleton,
     VarParsing.varType.bool,
     "Compute MC efficiencies"
@@ -24,7 +24,7 @@ varOptions.register(
     )
 
 varOptions.register(
-    "doPhoID", True,
+    "doPhoID", False,
     VarParsing.multiplicity.singleton,
     VarParsing.varType.bool,
     "Include tree for photon ID SF"
@@ -66,8 +66,8 @@ varOptions.register(
     #"GT","94X_mc2017_realistic_v12",
     #"GT","106X_dataRun2_v17",
     #"GT","106X_mc2017_realistic_v7",
-    "GT","106X_dataRun2_v20", #UL17
-    #"GT","106X_mc2017_realistic_v6", #UL17
+    #"GT","106X_dataRun2_v20", #UL17
+    "GT","106X_mc2017_realistic_v6", #UL17
     #"GT","106X_dataRun2_v24", ## Data UL2018
     #"GT","106X_upgrade2018_realistic_v9", ## MC UL2018
     VarParsing.multiplicity.singleton,

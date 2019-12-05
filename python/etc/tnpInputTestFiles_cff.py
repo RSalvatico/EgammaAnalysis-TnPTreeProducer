@@ -37,7 +37,8 @@ filesAOD_Preliminary2018 = {
 
 filesAOD_Preliminary2017 = {
     'mc' :  cms.untracked.vstring(
-        '/store/mc/RunIISummer19UL17RECO/DYJetsToEE_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/AODSIM/106X_mc2017_realistic_v6-v2/30000/FFCA4B4F-6AFD-D644-8CA6-C9264C6C0C68.root' ## UL17
+        #'/store/mc/RunIISummer19UL17RECO/DYJetsToEE_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/AODSIM/106X_mc2017_realistic_v6-v2/30000/FFCA4B4F-6AFD-D644-8CA6-C9264C6C0C68.root' ## UL17
+        '/store/mc/RunIIWinter19PFCalibDRPremix/DYJetsToEE_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/AODSIM/2017Conditions_105X_mc2017_realistic_v5-v1/00000/3CB78C88-306E-114B-BD78-683C2E5DFECF.root'
 #        '/store/mc/RunIIFall17DRPremix/DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/AODSIM/PU2017RECOPF_94X_mc2017_realistic_v11-v1/50000/D42B8057-9F67-E811-9656-549F3525C4EC.root'
         ),
     'data' :  cms.untracked.vstring(
