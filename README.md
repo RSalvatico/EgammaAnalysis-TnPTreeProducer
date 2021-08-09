@@ -32,7 +32,10 @@ ls /eos/cms/store/group/phys_egamma/tnpTuples/tomc/2020-03-03/*/merged/*L1matche
 ### UL2017 and UL2018
 For ultra-legacy  we have tnpEleTrig, tnpEleIDs and tnpPhoIDs trees available at:
 ```
-ls /eos/cms/store/group/phys_egamma/tnpTuples/tomc/2020-05-20/*/merged/
+ls /eos/cms/store/group/phys_egamma/tnpTuples/tomc/2020-05-20/UL2018/merged
+ls /eos/cms/store/group/phys_egamma/tnpTuples/tomc/2020-05-20/UL2017/merged
+ls /eos/cms/store/group/phys_egamma/tnpTuples/rasharma/2021-02-10/UL2016postVFP/merged
+ls /eos/cms/store/group/phys_egamma/tnpTuples/rasharma/2021-02-10/UL2016preVFP/merged
 ```
 
 
