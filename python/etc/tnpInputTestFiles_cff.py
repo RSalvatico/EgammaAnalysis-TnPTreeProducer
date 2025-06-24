@@ -94,3 +94,7 @@ filesAOD_2023preBPIX = {
 filesAOD_2023postBPIX = {
     'mc' : cms.untracked.vstring('root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixDRPremix/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/AODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/80000/00ebe845-8a8e-4ecd-a979-a74d292b87d6.root')
     }
+
+filesAOD_2023HI = {
+    'mc' : cms.untracked.vstring('file:/eos/cms/store/group/cmst3/group/hintt/Run3_2023_PbPb/SummerStudent2025/POWHEG_DYToEE_M_50_RECO.root'),
+    }
