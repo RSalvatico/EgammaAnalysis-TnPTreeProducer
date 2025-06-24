@@ -147,7 +147,7 @@ else:  #AOD files
   #submitWrapper('Run2023D_1v1_AOD', '/EGamma1/Run2023D-PromptReco-v1/AOD', eraData)
   #submitWrapper('Run2023D_1v2_AOD', '/EGamma1/Run2023D-PromptReco-v2/AOD', eraData)
   
-  submitWrapper('DY_EE_HI2023', '/POWHEG_5p36TeV_2023Run3/anstahll-DYToEE_M_50_POWHEG_Hydjet_5p36TeV_TuneCP5_2023Run3_RECO_2025_06_12-276727576f776097878185e411c5c644/USER', eraMCHI)
+  submitWrapper('DY_EE_HI2023', '/POWHEG_5p36TeV_2023Run3/anstahll-DYToEE_M_50_POWHEG_Hydjet_5p36TeV_TuneCP5_2023Run3_RECO_2025_06_18-276727576f776097878185e411c5c644/USER', eraMCHI)
   #submitWrapper('DY_NLO_AODSIM_preBPIX', '/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer23DRPremix-130X_mcRun3_2023_realistic_v14-v1/AODSIM', eraMCpreBPIX)
   #submitWrapper('DY_LO_AODSIM_postBPIX', '/DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/Run3Summer23BPixDRPremix-130X_mcRun3_2023_realistic_postBPix_v2-v3/AODSIM', eraMCpostBPIX)
   #submitWrapper('DY_NLO_AODSIM_postBPIX', '/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer23BPixDRPremix-130X_mcRun3_2023_realistic_postBPix_v2-v3/AODSIM', eraMCpostBPIX)
